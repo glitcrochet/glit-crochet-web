@@ -15,9 +15,9 @@ const products = [
             "Snoopy tejido a mano con mucho cariño.",
 
         images: [
-            "img/snoopy-1.jpg",
-            "img/snoopy-2.jpg",
-            "img/snoopy-3.jpg"
+            "img/Snoopy-1.jpg",
+            "img/Snoopy-2.jpg",
+            "img/Snoopy-3.jpg"
         ],
 
         type: "stock",
@@ -58,11 +58,11 @@ const products = [
         size: "12 cm",
 
         description:
-            "Snoopy tejido a mano con mucho cariño.",
+            "Groot tejido a mano con mucho cariño.",
 
         images: [
-            "img/groot-1.jpg",
-            "img/groot-2.jpg"
+            "img/Groot-1.jpg",
+            "img/Groot-2.jpg"
         ],
 
         type: "stock",
@@ -111,7 +111,7 @@ const products = [
             "Amigurumi personalizado inspirado en Kenia OS.",
 
         images: [
-            "img/kenia-os-1.jpg"
+            "img/Kenia-os-1.jpg"
         ],
 
         type: "stock",
@@ -135,9 +135,9 @@ const products = [
             "Snoopy tejido a mano con mucho cariño.",
 
         images: [
-            "img/snoopy-1.jpg",
-            "img/snoopy-2.jpg",
-            "img/snoopy-3.jpg"
+            "img/Snoopy-1.jpg",
+            "img/Snoopy-2.jpg",
+            "img/Snoopy-3.jpg"
         ],
 
         type: "stock",
@@ -176,9 +176,9 @@ const products = [
             "Snoopy tejido a mano con mucho cariño.",
 
         images: [
-            "img/snoopy-1.jpg",
-            "img/snoopy-2.jpg",
-            "img/snoopy-3.jpg"
+            "img/Snoopy-1.jpg",
+            "img/Snoopy-2.jpg",
+            "img/Snoopy-3.jpg"
         ],
 
         type: "stock",
