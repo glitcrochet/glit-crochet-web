@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>
+        Cotización | Glitter Crochet
+    </title>
+
+    <link
+        rel="stylesheet"
+        href="styles.css"
+    >
+
+</head>
+
+
+<body>
+
+
+<header>
+
+    <a
+        href="index.html"
+        class="logo"
+    >
+
+        <img
+            src="img/Logo.jpg.jpeg"
+            alt="Glitter Crochet"
+        >
+
+    </a>
+
+
+    <nav>
+
+        <a href="index.html">
+            Inicio
+        </a>
+
+        <a href="index.html#stock">
+            Stock
+        </a>
+
+        <a href="index.html#nosotros">
+            Sobre Glitter
+        </a>
+
+        <a href="carrito.html">
+            🛒 Carrito
+        </a>
+
+    </nav>
+
+</header>
+
+
+
+<main>
+
+<section class="solicitud">
+
+
+    <h1>
+        Quiero una cotización 
+    </h1>
+
+
+    <p>
+        Cuéntame qué amigurumi tienes en mente
+        y te enviaré una cotización personalizada.
+    </p>
+
+
+    <form id="formularioSolicitud">
+
+
+        <div class="campo-solicitud">
+
+            <label for="personaje">
+                ¿Qué personaje, persona o diseño quieres?
+            </label>
+
+            <input
+                type="text"
+                id="personaje"
+                required
+                placeholder="Ej.: Harry Styles, mi mascota, un personaje..."
+            >
+
+        </div>
+
+
+
+        <div class="campo-solicitud">
+
+            <label for="referencias">
+                ¿Tienes imágenes o referencias?
+            </label>
+
+            <textarea
+                id="referencias"
+                placeholder="Puedes describirlas o indicar qué detalles quieres que tome como referencia."
+            ></textarea>
+
+        </div>
+
+
+
+        <div class="campo-solicitud">
+
+            <label for="tamano">
+                Tamaño aproximado
+            </label>
+
+            <input
+                type="text"
+                id="tamano"
+                placeholder="Ej.: 15 cm"
+            >
+
+        </div>
+
+
+
+        <div class="campo-solicitud">
+
+            <label for="ropa">
+                Ropa y accesorios
+            </label>
+
+            <textarea
+                id="ropa"
+                placeholder="Ej.: polo blanco, lentes, gorra, guitarra..."
+            ></textarea>
+
+        </div>
+
+
+
+        <div class="campo-solicitud">
+
+            <label for="colores">
+                Colores
+            </label>
+
+            <input
+                type="text"
+                id="colores"
+                placeholder="Ej.: verde, blanco y negro"
+            >
+
+        </div>
+
+
+
+        <div class="campo-solicitud">
+
+            <label for="detalles">
+                Detalles especiales
+            </label>
+
+            <textarea
+                id="detalles"
+                placeholder="Cualquier detalle que quieras que tenga tu amigurumi."
+            ></textarea>
+
+        </div>
+
+
+
+        <div class="campo-solicitud">
+
+            <label for="fecha">
+                ¿Para cuándo lo necesitas?
+            </label>
+
+            <input
+                type="date"
+                id="fecha"
+            >
+
+        </div>
+
+
+
+        <div class="campo-solicitud">
+
+            <label for="otros">
+                ¿Algo más que quieras contarme?
+            </label>
+
+            <textarea
+                id="otros"
+                placeholder="Cuéntame cualquier otro detalle..."
+            ></textarea>
+
+        </div>
+
+
+
+        <div class="comentario-solicitud">
+
+            <label for="tarjeta">
+                💌 ¿Quieres una tarjeta personalizada?
+            </label>
+
+            <p>
+                Gratis · opcional
+            </p>
+
+            <textarea
+                id="tarjeta"
+                placeholder="Ej.: Feliz cumpleaños, te quiero mucho..."
+            ></textarea>
+
+        </div>
+
+
+
+        <button
+            type="submit"
+            class="boton-checkout"
+        >
+            Enviar solicitud 
+        </button>
+
+
+    </form>
+
+
+</section>
+
+</main>
+
+
+
+<footer>
+
+    <p>
+        Glitter Crochet · @glit.crochet
+    </p>
+
+</footer>
+
+
+
+<script src="solicitud.js"></script>
+
+</body>
+
+</html>

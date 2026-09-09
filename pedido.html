@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Bajo pedido | Glitter Crochet</title>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+<header>
+
+    <a href="index.html" class="logo">
+        <img src="img/Logo.jpg.jpeg" alt="Glitter Crochet">
+    </a>
+
+    <nav>
+        <a href="index.html">Inicio</a>
+        <a href="index.html#stock">Stock</a>
+        <a href="index.html#nosotros">Sobre Glitter</a>
+        <a href="carrito.html">🛒 Carrito</a>
+    </nav>
+
+</header>
+
+
+<main>
+
+<section class="pedido">
+
+    <h1>Hacer bajo pedido ⋆˚꩜｡</h1>
+
+    <div class="resumen-pedido">
+
+        <img
+            id="imagenProducto"
+            src=""
+            alt=""
+        >
+
+        <div>
+
+            <h2 id="nombreProducto"></h2>
+
+            <p
+                id="precioProducto"
+                class="precio"
+            ></p>
+
+            <p>
+                Tiempo de preparación:
+                <strong id="tiempoProducto"></strong>
+            </p>
+
+        </div>
+
+    </div>
+
+
+    <div class="opciones-pedido-container">
+
+        <h2>Personaliza tu pedido ⋆˚꩜｡</h2>
+
+        <p>
+            Los cambios de color disponibles no tienen
+            costo adicional.
+        </p>
+
+        <div id="opcionesProducto"></div>
+
+    </div>
+
+
+    <div class="comentario-pedido">
+
+        <label for="comentarioPedido">
+            ¿Deseas una tarjeta personalizada? ✉
+        </label>
+
+        <p>
+            Escribe aquí el mensaje que deseas incluir
+            en tu tarjeta.
+        </p>
+
+        <textarea
+            id="comentarioPedido"
+            placeholder="Ej.: Feliz cumpleaños, te quiero mucho..."
+        ></textarea>
+
+    </div>
+
+
+    <div class="resumen-pedido">
+
+        <div>
+
+            <p>
+                Precio base:
+                <strong id="precioBase"></strong>
+            </p>
+
+            <p>
+                Extra por llavero:
+                <strong id="precioExtra">S/ 0.00</strong>
+            </p>
+
+            <p>
+                <strong>Total del pedido:</strong>
+                <strong id="precioFinal">S/ 0.00</strong>
+            </p>
+
+            <p>
+                <strong>Adelanto (50%):</strong>
+                <strong id="adelanto">S/ 0.00</strong>
+            </p>
+
+        </div>
+
+    </div>
+
+
+    <div class="adelanto-pedido">
+
+        <h3>💳 Forma de pago</h3>
+
+        <p>
+            Para comenzar tu pedido se realiza un
+            <strong>50% de adelanto</strong>.
+        </p>
+
+        <p>
+            El 50% restante se paga al momento de la entrega.
+        </p>
+
+    </div>
+
+
+    <button
+        id="botonSolicitar"
+        class="boton-checkout"
+    >
+        Continuar al pago ⋆˚꩜｡
+    </button>
+
+</section>
+
+</main>
+
+
+<footer>
+
+    <p>
+        Glitter Crochet · @glit.crochet
+    </p>
+
+</footer>
+
+
+<script src="products.js"></script>
+<script src="pedido.js"></script>
+
+</body>
+
+</html>

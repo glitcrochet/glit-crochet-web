@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Pedido registrado | Glitter Crochet</title>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <header>
+
+        <a href="index.html" class="logo">
+            <img src="img/Logo.jpg.jpeg" alt="Glitter Crochet">
+        </a>
+
+        <nav>
+            <a href="index.html">Inicio</a>
+            <a href="index.html#stock">Stock</a>
+            <a href="index.html#nosotros">Sobre Glitter</a>
+        </nav>
+
+    </header>
+
+
+    <main>
+
+        <section class="confirmacion">
+
+            <div class="confirmacion-icono">
+                🎉
+            </div>
+
+            <h1>¡Pedido registrado!</h1>
+
+            <p>
+                Gracias por tu compra en Glitter Crochet ♡
+            </p>
+
+            <div class="numero-pedido">
+
+                <p>Tu número de pedido es:</p>
+
+                <strong id="numeroPedido">
+                    GC-000000
+                </strong>
+
+            </div>
+
+
+            <div class="instrucciones-whatsapp">
+
+                <h2>Último paso 📱</h2>
+
+                <p>
+                    Envía tu comprobante de pago por WhatsApp
+                    para que podamos verificar tu pago.
+                </p>
+
+                <button
+                    id="botonWhatsApp"
+                    class="boton-whatsapp"
+                >
+                    📲 Enviar comprobante por WhatsApp
+                </button>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <footer>
+
+        <p>
+            Glitter Crochet · @glit.crochet
+        </p>
+
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+<script src="supabase.js"></script>
+<script src="confirmacion.js"></script>
+
+</body>
+
+</html>

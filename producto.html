@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>
+        Producto | Glitter Crochet
+    </title>
+
+    <link
+        rel="stylesheet"
+        href="styles.css"
+    >
+
+</head>
+
+
+<body>
+
+
+<header>
+
+    <a
+        href="index.html"
+        class="logo"
+    >
+
+        <img
+            src="img/Logo.jpg.jpeg"
+            alt="Glitter Crochet"
+        >
+
+    </a>
+
+
+    <nav>
+
+        <a href="index.html">
+            Inicio
+        </a>
+
+        <a href="index.html#stock">
+            Stock
+        </a>
+
+        <a href="index.html#nosotros">
+            Sobre Glitter
+        </a>
+
+        <a href="carrito.html">
+            🛒 Carrito
+        </a>
+
+    </nav>
+
+</header>
+
+
+
+<main>
+
+
+<section class="detalle-producto">
+
+
+    <div class="galeria-producto">
+
+
+        <div class="foto-principal">
+
+            <button
+                id="anterior"
+                type="button"
+            >
+                ←
+            </button>
+
+
+            <img
+                id="imagenPrincipal"
+                src=""
+                alt=""
+            >
+
+
+            <button
+                id="siguiente"
+                type="button"
+            >
+                →
+            </button>
+
+        </div>
+
+
+        <div
+            id="miniaturas"
+            class="miniaturas"
+        ></div>
+
+
+    </div>
+
+
+
+    <div class="informacion-producto">
+
+
+        <h1
+            id="nombreProducto"
+        ></h1>
+
+
+        <p
+            id="precioProducto"
+            class="precio"
+        ></p>
+
+
+        <p
+            id="stockProducto"
+        ></p>
+
+
+        <p
+            id="descripcionProducto"
+        ></p>
+
+
+        <p
+            id="tamanoProducto"
+        ></p>
+
+
+
+        <!-- LLAVERO -->
+
+        <div
+            id="extraLlavero"
+            class="extra-producto"
+            style="display: none;"
+        >
+
+            <label>
+
+                <input
+                    type="checkbox"
+                    id="llavero"
+                >
+
+                🔑 Añadir llavero
+                <strong>
+                    +S/1.50
+                </strong>
+
+            </label>
+
+        </div>
+
+
+
+        <!-- BOTONES -->
+
+        <div
+            class="botones-producto"
+        >
+
+            <button
+                id="botonCarrito"
+                class="boton-carrito"
+                type="button"
+            >
+                🛒 Agregar al carrito
+            </button>
+
+
+            <button
+                id="botonPersonaliza"
+                class="boton-personaliza"
+                type="button"
+            >
+                🧶 Personaliza el tuyo
+            </button>
+
+        </div>
+
+
+    </div>
+
+
+</section>
+
+
+
+<section class="relacionados">
+
+
+    <h2>
+        También te puede gustar *:･
+    </h2>
+
+
+    <div
+        id="productosRelacionados"
+        class="productos-relacionados"
+    ></div>
+
+
+</section>
+
+
+</main>
+
+
+
+<footer>
+
+    <p>
+        Glitter Crochet · @glit.crochet
+    </p>
+
+</footer>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+<script src="supabase.js"></script>
+<script src="products.js"></script>
+<script src="producto.js"></script>
+
+</body>
+
+</html>

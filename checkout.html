@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Finalizar pedido | Glitter Crochet</title>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <header>
+
+        <a href="index.html" class="logo">
+            <img src="img/Logo.jpg.jpeg" alt="Glitter Crochet">
+        </a>
+
+        <nav>
+            <a href="index.html">Inicio</a>
+            <a href="index.html#stock">Stock</a>
+            <a href="index.html#nosotros">Sobre Glitter</a>
+            <a href="carrito.html">🛒 Carrito</a>
+        </nav>
+
+    </header>
+
+
+    <main>
+
+        <section class="checkout">
+
+            <h1>Finalizar pedido ♡</h1>
+
+            <p class="checkout-intro">
+                Déjanos tus datos para preparar tu pedido.
+            </p>
+
+
+            <form id="formularioCheckout">
+
+                <div class="campo">
+
+                    <label for="nombre">
+                        Nombre completo *
+                    </label>
+
+                    <input
+                        type="text"
+                        id="nombre"
+                        name="nombre"
+                        placeholder="Ej. Flavia Vidal"
+                        required
+                    >
+
+                </div>
+
+
+                <div class="campo">
+
+                    <label for="celular">
+                        Número de celular *
+                    </label>
+
+                    <input
+                        type="tel"
+                        id="celular"
+                        name="celular"
+                        placeholder="Ej. 987654321"
+                        required
+                    >
+
+                </div>
+
+
+                <div class="campo">
+
+                    <label for="correo">
+                        Correo electrónico *
+                    </label>
+
+                    <input
+                        type="email"
+                        id="correo"
+                        name="correo"
+                        placeholder="Ej. tucorreo@gmail.com"
+                        required
+                    >
+
+                </div>
+
+
+                <div class="campo">
+
+                    <label for="comentario">
+                        Comentario adicional
+                    </label>
+
+                    <textarea
+                        id="comentario"
+                        name="comentario"
+                        placeholder="¿Hay algo que quieras indicarnos sobre tu pedido?"
+                    ></textarea>
+
+                </div>
+
+
+                <button
+                    type="submit"
+                    class="boton"
+                >
+                    Continuar al pago →
+                </button>
+
+            </form>
+
+        </section>
+
+    </main>
+
+
+    <footer>
+
+        <p>
+            Glitter Crochet · @glit.crochet
+        </p>
+
+    </footer>
+
+
+    <script src="checkout.js"></script>
+
+</body>
+
+</html>
